@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Blackstone Bistro | Pizza-on-Demand</h1>
+
+<p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+
+
+<form action="https://blackgoosebistro.com/pizza.php" method="none">
+    <label for="info">Your Information</label>
+    <ul>
+        <li>Name: <input type="text"></li>
+        <li>Address: <input type="text"></li>
+        <li>Telephone Number: <input type="tel"></li>
+        <li>Email: <input type="email"></li>
+        <li>Delivery instructions: <br><textarea maxlength="400" rows="4" cols="60" placeholder="Put deliver instructions here" name="delivery" id=""></textarea></li>
+    </ul>
+      
+      
+      <h2>Design Your Dream Pizza:</h2>
+      
+      <p>Pizza specs<p>
+      
+      <label>Crust <em>(Choose one)</em>:</label>
+      <ul>
+        <li><input type="radio" value="white" name="crust">Classic white</li>
+        <li><input type="radio" value="Multigrain" name="crust">Multigrain</li>
+        <li><input type="radio" value="cheese " name="crust">Cheese-stuffed crust</li>
+        <li><input type="radio" value="glutenfree" name="crust">Gluten-free</li>
+      </ul>
+      
+      <p>Toppings <em>(Choose as many as you want)</em>:</p>
+      <ul>
+        <li><input type="checkbox" name="toppings[]" value="Red">Red sauce</li>
+        <li><input type="checkbox" name="toppings[]" value="White">White sauce</li>
+        <li><input type="checkbox" name="toppings[]" value="Mozzarella Cheese">Mozzarella Cheese</li>
+        <li><input type="checkbox" name="toppings[]" value="Pepperoni">Pepperoni</li>
+        <li><input type="checkbox" name="toppings[]" value="Mushrooms">Mushrooms</li>
+        <li><input type="checkbox" name="toppings[]" value="Peppers">Peppers</li>
+        <li><input type="checkbox" name="toppings[]" value="Anchovies">Anchovies</li>
+      </ul>
+      
+      <p>Number</p>
+      <p>How many pizzas:<p>
+
+      <p><input type="submit" value="Bring me a pizza"><input type="reset" value="Reset"></p>
+</form>
+
+
+</body>
+</html>
