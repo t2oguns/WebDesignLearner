@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Million Dollar WebApp</title>
+</head>
+
+<body>
+
+	<script>
+		let originalTitle = document.title
+		const showUnreadCount = (unread) =>{
+			document.title = originalTitle+"("+ unread + " new messages)"
+		}
+		showUnreadCount(3)
+	</script>
+</body>
+</html>
